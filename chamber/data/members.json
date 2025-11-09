@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Sunrise Tech Solutions",
+        "address": "123 Innovation Drive, Port-au-Prince, Haiti",
+        "phone": "+509 5555-1101",
+        "website": "https://www.sunrisetech.ht",
+        "image": "sunrise.png",
+        "membership": 1,
+        "industry": "Software Development"
+    },
+    {
+        "name": "BlueWave Marketing",
+        "address": "45 Coastal Avenue, Cap-Haitien, Haiti",
+        "phone": "+509 5555-2202",
+        "website": "https://www.bluewavemkt.ht",
+        "image": "bluewave.png",
+        "membership": 2,
+        "industry": "Digital Marketing"
+    },
+    {
+        "name": "Island Fresh Grocers",
+        "address": "88 Market Street, Les Cayes, Haiti",
+        "phone": "+509 5555-3303",
+        "website": "https://www.islandfresh.ht",
+        "image": "grocers.png",
+        "membership": 3,
+        "industry": "Food & Retail"
+    },
+    {
+        "name": "Haiti Health Group",
+        "address": "12 Wellness Plaza, Jacmel, Haiti",
+        "phone": "+509 5555-4404",
+        "website": "https://www.haitihealthgroup.ht",
+        "image": "health.png",
+        "membership": 2,
+        "industry": "Healthcare Services"
+    },
+    {
+        "name": "Caribbean Builders Co.",
+        "address": "200 Construction Blvd, Gonaïves, Haiti",
+        "phone": "+509 5555-5505",
+        "website": "https://www.caribbuilders.ht",
+        "image": "construction.png",
+        "membership": 3,
+        "industry": "Construction & Engineering"
+    },
+    {
+        "name": "EcoPrint Studios",
+        "address": "67 Green Street, Port-au-Prince, Haiti",
+        "phone": "+509 5555-6606",
+        "website": "https://www.ecoprint.ht",
+        "image": "printing.png",
+        "membership": 1,
+        "industry": "Printing & Graphic Design"
+    },
+    {
+        "name": "Volt Energy Systems",
+        "address": "34 Powerline Road, Mirebalais, Haiti",
+        "phone": "+509 5555-7707",
+        "website": "https://www.voltenergy.ht",
+        "image": "power.png",
+        "membership": 3,
+        "industry": "Renewable Energy"
+    }
+]

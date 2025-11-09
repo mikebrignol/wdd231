@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+<path d="M0 0 C5.94 0 11.88 0 18 0 C18 1.32 18 2.64 18 4 C19.32 4 20.64 4 22 4 C22 6.64 22 9.28 22 12 C27.28 12 32.56 12 38 12 C38 23.22 38 34.44 38 46 C24.14 46 10.28 46 -4 46 C-4 32.14 -4 18.28 -4 4 C-2.68 4 -1.36 4 0 4 C0 2.68 0 1.36 0 0 Z M2 2 C2 3.32 2 4.64 2 6 C0.68 6 -0.64 6 -2 6 C-2 18.54 -2 31.08 -2 44 C0.97 44 3.94 44 7 44 C7 41.69 7 39.38 7 37 C8.32 37 9.64 37 11 37 C11 39.31 11 41.62 11 44 C13.97 44 16.94 44 20 44 C20 31.46 20 18.92 20 6 C18.68 6 17.36 6 16 6 C16 4.68 16 3.36 16 2 C11.38 2 6.76 2 2 2 Z M22 14 C22 23.9 22 33.8 22 44 C26.62 44 31.24 44 36 44 C36 34.1 36 24.2 36 14 C31.38 14 26.76 14 22 14 Z " fill="#FAB005" transform="translate(8,2)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.65 2 3.3 2 5 C1.34 5 0.68 5 0 5 C0 3.35 0 1.7 0 0 Z " fill="#FAB005" transform="translate(22,39)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.65 2 3.3 2 5 C1.34 5 0.68 5 0 5 C0 3.35 0 1.7 0 0 Z " fill="#FAB005" transform="translate(10,39)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(22,33)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(18,33)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(14,33)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(10,33)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(22,27)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(18,27)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(14,27)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(10,27)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(22,21)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(18,21)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(14,21)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(10,21)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(22,15)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(18,15)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(14,15)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#FAB005" transform="translate(10,15)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(40,42)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(36,42)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(32,42)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(40,38)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(36,38)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(32,38)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(40,34)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(36,34)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(32,34)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(40,30)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(36,30)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(32,30)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(40,26)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(36,26)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(32,26)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(40,22)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(36,22)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(32,22)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(40,18)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(36,18)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(32,18)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(22,10)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(18,10)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(14,10)"/>
+<path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z " fill="#FAB005" transform="translate(10,10)"/>
+</svg>

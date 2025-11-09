@@ -1,0 +1,181 @@
+:root {
+    --dark-blue: #0a2e5c;
+    --mid-blue: #123a74;
+    --white: #ffffff;
+    --black: #222222;
+    --accent-gold: #d4a017;
+    --light-gray: #f2f2f2;
+
+    --card-bg: #f9f9f9;
+    --card-border: #dcdcdc;
+
+    --font-main: "Poppins", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--white);
+    color: var(--black);
+}
+
+header {
+    background: var(--dark-blue);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: relative;
+    border-bottom: 4px solid var(--accent-gold);
+}
+
+header img {
+    width: 60px;
+    margin-right: 1rem;
+}
+
+header h1 {
+    flex: 1;
+    font-size: 1.4rem;
+}
+
+header nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: var(--accent-gold);
+}
+
+#hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--white);
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding-bottom: 3rem;
+}
+
+main h2 {
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+}
+
+.view {
+    margin-bottom: 1.5rem;
+}
+
+.view button {
+    background: var(--dark-blue);
+    color: var(--white);
+    border: 2px solid var(--accent-gold);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    font-weight: 600;
+}
+
+.view button:hover {
+    background: var(--accent-gold);
+    color: var(--dark-blue);
+}
+
+#directory.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+#directory.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#directory.list .directory-card {
+    flex-direction: row;   
+    align-items: baseline;
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin: 0.25rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+#directory.list .directory-card img {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    margin-bottom: 0;
+}
+
+.directory-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    transition: all 0.3s ease;
+    margin: 1rem;
+}
+
+
+.directory-card img {
+    width: 50px;
+    max-width: 150px;
+    display: block;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.directory-card h3 {
+    color: var(--dark-blue);
+    margin-bottom: 0.5rem;
+}
+
+.directory-card p {
+    margin-bottom: 0.4rem;
+}
+
+.directory-card a {
+    color: var(--accent-gold);
+    font-weight: bold;
+}
+
+.directory-card.gold {
+    border: 2px solid var(--accent-gold);
+    background: #fff8dd;
+}
+
+footer {
+    background: var(--dark-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-top: 4px solid var(--accent-gold);
+}
+
+footer .social-media img:hover {
+    filter: brightness(1.3);
+}
