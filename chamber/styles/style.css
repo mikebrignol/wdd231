@@ -159,7 +159,7 @@ main h2 {
 }
 
 .directory-card a {
-    color: var(--accent-gold);
+    color: var(--dark-blue);
     font-weight: bold;
 }
 
