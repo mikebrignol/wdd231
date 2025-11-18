@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory</title>
-    <meta name="description" content="WDD 231 - Web Frontend Development | Chamber of Commerce | Directory">
+    <title>Home</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development | Chamber of Commerce | Home Page">
     <meta name="author" content="Mike Brignol">
-    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:title" content="Chamber of Commerce Home Page">
     <meta property="og:description" content="Discover businesses, services, and community opportunities with our Chamber of Commerce directory. Connect, and explore what our community has to offer.">
-    <meta property="og:url" content="https://mikebrignol.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://mikebrignol.github.io/wdd231/chamber/index.html">
     <meta property="og:image" content="https://mikebrignol.github.io/wdd231/chamber/images/og.png">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/smaller.css">
@@ -16,8 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico">
-    <script src="scripts/view.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script type="module" src="scripts/home.mjs" defer></script>
     <script src="scripts/footer.js" defer></script>
     <script src="scripts/nav.js" defer></script>
 </head>
@@ -35,15 +34,21 @@
     </header>
 
     <main>
-        <h2>Directory</h2>
-        <div class="view">
-            <button id="grid">Grid</button>
-            <button id="list">List</button>
-        </div>
+        <section id="hero">
+            <img src="images/hero.jpg" alt="Chamber Hero Image">
+            <a id="cta" href="#">✨ Join the Chamber</a>
+        </section>
 
-        <article id="directory">
-            
-        </article>
+        <section id="events">
+            <h3>Upcoming Event</h3>
+            <p>Business Networking Breakfast – Friday 9 AM</p>
+        </section>
+
+        <section id="weather"></section>
+
+        <section id="spotlights">
+            <h2>Business Spotlights</h2>
+        </section>
     </main>
     
     <footer>
