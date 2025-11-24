@@ -1,33 +1,12 @@
-/* styles/forms.css */
 :root{
   --dark-blue:#0a2e5c;
+  --mid-blue: #123a74;
   --white:#ffffff;
   --black:#222222;
   --accent-gold:#d4a017;
   --card-bg:#f9f9f9;
   --card-border:#dcdcdc;
   --font-main:"Poppins",sans-serif;
-}
-
-body {
-    font-family: var(--font-main);
-    background-color: var(--white);
-    color: var(--black);
-}
-
-header {
-    background: var(--dark-blue);
-    color: var(--white);
-    display: flex;
-    align-items: center;
-    padding: 1rem 2rem;
-    position: relative;
-    border-bottom: 4px solid var(--accent-gold);
-}
-
-header img {
-    width: 60px;
-    margin-right: 1rem;
 }
 
 header h1 {
@@ -62,9 +41,9 @@ body{font-family:var(--font-main);color:var(--black);background:var(--white);mar
 
 header{background:var(--dark-blue);color:var(--white);padding:1rem;display:flex;gap:1rem;align-items:center}
 header img{height:48px;width:auto}
-header h1{font-size:1.25rem;margin:0}
 
 .container{width:90%;max-width:1100px;margin:2rem auto}
+
 
 .form-grid{display:grid;grid-template-columns:1fr;gap:1.5rem}
 @media(min-width:900px){
