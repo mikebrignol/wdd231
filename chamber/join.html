@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Page</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development | Chamber of Commerce | Join Page">
+    <meta name="author" content="Mike Brignol">
+    <meta property="og:title" content="Chamber of Commerce Join Page">
+    <meta property="og:description" content="Discover businesses, services, and community opportunities with our Chamber of Commerce directory. Connect, and explore what our community has to offer.">
+    <meta property="og:url" content="https://mikebrignol.github.io/wdd231/chamber/index.html">
+    <meta property="og:image" content="https://mikebrignol.github.io/wdd231/chamber/images/og.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <script type="module" src="scripts/modals.mjs"></script>
+    <script type="module" src="scripts/form-handler.mjs"></script>
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/nav.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="website logo">
+        <h1><span id="course-title">Chamber of Commerce</span></h1>
+        <span id="hamburger">&#9776;</span>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Discover</a>
+            <a href="directory.html">Directory</a> 
+            <a href="#">Join</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Membership Application</h2>
+        <div class="form-grid">
+            <form id="join-form" method="get" action="thankyou.html" novalidate>
+                <fieldset>
+                    <legend>Applicant Informatiion</legend>
+                    
+                    <label>
+                        First name <input type="text" name="firstName" id="firstName" title="Applicant's given name" autocomplete="given-name" required>
+                    </label>
+
+                    <label>
+                        Last name <input type="text" name="lastName" id="lastName" title="Applicant's family name" autocomplete="family-name" required>
+                    </label>
+
+                    <label>
+                        Organizational title <input type="text" name="orgTitle" id="orgTitle" title="Title within organization" autocomplete="organization-title" pattern="^[A-Za-z\- ]{7,}$" placeholder="e.g., HR Director">
+                    </label>
+
+                    <label>
+                        Email address <input type="email" name="email" id="email" title="Applicant's email address" autocomplete="email" placeholder="name@nomail.com" required>
+                    </label>
+                    
+                    <label>
+                        Mobile phone <input type="tel" name="mobile" id="mobile" title="Applicant's mobie phone" autocomplete="tel" placeholder="+1 (555) 555 5555" required>
+                    </label>
+
+                    <label>
+                        Organization name <input type="text" name="businessName" id="businessName" title="Business' Name" autocomplete="organization" required>
+                    </label>
+
+                    <label>
+                        Membership level
+                        <select name="Membership" id="membership" title="Choose membership level" required>
+                            <option value="np">NP Membership</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Organization description
+                        <textarea name="description" id="description" title="Organization's description" rows="5"></textarea>
+                    </label>
+
+                    <input type="hidden" name="timestamp" id="timestamp" value="">
+
+                    <div class="form-actions">
+                        <input type="submit" value="Submit Application">
+                    </div>
+                </fieldset>
+            </form>
+
+            <aside class="cards" aria-label="Membership options">
+                <div class="card" data-modal="modal-np" tabindex="0">
+                    <h3>NP Membership</h3>
+                    <p>No fee - Nonprofit organization</p>
+                    <a href="#" class="card-link" data-open="modal-np">More info</a>
+                </div>
+
+                <div class="card" data-modal="modal-bronze" tabindex="0">
+                    <h3>Bronze Membership</h3>
+                    <p>Basic benefits</p>
+                    <a href="#" class="card-link" data-open="modal-bronze">More info</a>
+                </div>
+
+                <div class="card" data-modal="modal-silver" tabindex="0">
+                    <h3>Silver Membership</h3>
+                    <p>Include discounts and spotlights benefits</p>
+                    <a href="#" class="card-link" data-open="modal-silver">More info</a>
+                </div>
+
+                <div class="card" data-modal="modal-gold" tabindex="0">
+                    <h3>Gold Membership</h3>
+                    <p>Top benefits</p>
+                    <a href="#" class="card-link" data-open="modal-gold">More info</a>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <div class="modal" id="modal-np" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-np-title">
+        <div class="modal-content">
+        <button class="close" aria-label="Close modal">&times;</button>
+        <h2 id="modal-np-title">NP Membership — Benefits</h2>
+        <ul>
+            <li>Free listing in directory</li>
+            <li>Invitations to community events</li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-bronze" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-bronze-title">
+        <div class="modal-content">
+        <button class="close" aria-label="Close modal">&times;</button>
+        <h2 id="modal-bronze-title">Bronze Membership — Benefits</h2>
+        <ul>
+            <li>Directory spotlight rotation</li>
+            <li>Event discounts</li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-silver" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-silver-title">
+        <div class="modal-content">
+        <button class="close" aria-label="Close modal">&times;</button>
+        <h2 id="modal-silver-title">Silver Membership — Benefits</h2>
+        <ul>
+            <li>Priority spotlight on home page</li>
+            <li>Training sessions</li>
+            <li>Reduced event fees</li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-gold" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-gold-title">
+        <div class="modal-content">
+        <button class="close" aria-label="Close modal">&times;</button>
+        <h2 id="modal-gold-title">Gold Membership — Benefits</h2>
+        <ul>
+            <li>Prime homepage spotlight</li>
+            <li>Premium advertising</li>
+            <li>Complimentary event entries</li>
+        </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p><span id="currentYear">Mike Brignol</span></p>
+        <p> <span id="lastModified"></span></p>
+    </footer>
+
+</body>
+</html>

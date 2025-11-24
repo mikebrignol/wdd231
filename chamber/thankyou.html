@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Page</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development | Chamber of Commerce | Join Page">
+    <meta name="author" content="Mike Brignol">
+    <meta property="og:title" content="Chamber of Commerce Join Page">
+    <meta property="og:description" content="Discover businesses, services, and community opportunities with our Chamber of Commerce directory. Connect, and explore what our community has to offer.">
+    <meta property="og:url" content="https://mikebrignol.github.io/wdd231/chamber/index.html">
+    <meta property="og:image" content="https://mikebrignol.github.io/wdd231/chamber/images/og.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <script type="module" src="scripts/modals.mjs"></script>
+    <script type="module" src="scripts/form-handler.mjs"></script>
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/nav.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="website logo">
+        <h1><span id="course-title">Chamber of Commerce</span></h1>
+        <span id="hamburger">&#9776;</span>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Discover</a>
+            <a href="directory.html">Directory</a> 
+            <a href="#">Join</a>
+        </nav>
+    </header>
+
+    <main class="container">
+    <h2>Thank you for your application</h2>
+    <p>Below are the required fields you submitted:</p>
+
+    <div id="result" class="result-card">
+    </div>
+
+    <p><a href="forms.html">Return to form</a></p>
+    </main>
+
+    <script>
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const data = {
+        firstName: params.get('firstName') || '',
+        lastName: params.get('lastName') || '',
+        email: params.get('email') || '',
+        mobile: params.get('mobile') || '',
+        businessName: params.get('businessName') || '',
+        timestamp: params.get('timestamp') || ''
+      };
+
+      const result = document.getElementById('result');
+      let tsText = data.timestamp ? new Date(data.timestamp).toLocaleString() : 'N/A';
+
+      result.innerHTML = `
+        <div class="thank-card">
+          <p><strong>First name:</strong> ${escapeHtml(data.firstName)}</p>
+          <p><strong>Last name:</strong> ${escapeHtml(data.lastName)}</p>
+          <p><strong>Email:</strong> ${escapeHtml(data.email)}</p>
+          <p><strong>Mobile:</strong> ${escapeHtml(data.mobile)}</p>
+          <p><strong>Business name:</strong> ${escapeHtml(data.businessName)}</p>
+          <p><strong>Form loaded at:</strong> ${tsText}</p>
+        </div>
+      `;
+      function escapeHtml(str) {
+        return String(str).replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+      }
+    })();
+  </script>
+  
+</body>
+</html>
