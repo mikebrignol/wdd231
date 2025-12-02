@@ -1,0 +1,134 @@
+:root {
+    --primary-color: #ff0000;; 
+    --accent-color: #000000;   
+    --background-color: #fefefe;
+    --text-color: #2d2d2d;
+    --white: #ffffff;
+    --heading-font: "Merriweather", sans-serif;
+    --body-font: "DM Sans", sans-serif;
+}
+
+body {
+    font-family: var(--body-font); 
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    color: var(--white);
+    font-family: var(--heading-font);
+    text-align: center;
+    padding: 2.5rem 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2.4rem;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed var(--accent-color);
+}
+
+h2 {
+    color: var(--accent-color);
+    border-left: 5px solid var(--primary-color);
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.color-samples {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.color-box {
+    flex: 1 1 100px;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 600;
+    color: var(--white);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.color-box:hover {
+    transform: translateY(-5px);
+}
+
+.wireframes {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.wireframes img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 2px solid var(--accent-color);
+}
+
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+footer {
+    background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.95rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media (max-width: 720px) {
+  header h1 {
+    font-size: 1.9rem;
+  }
+
+  main {
+    margin: 1rem;
+    padding: 1.2rem;
+  }
+
+  .color-samples {
+    flex-direction: column;
+  }
+
+  .wireframes {
+    grid-template-columns: 1fr;
+  }
+}
