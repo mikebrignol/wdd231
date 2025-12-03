@@ -16,6 +16,14 @@
         border-bottom: 3px solid var(--accent-gold);
     }
 
+    #places-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: start;
+    }
+
     header nav.show {
         display: flex;
     }

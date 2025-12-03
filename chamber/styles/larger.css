@@ -1,0 +1,6 @@
+@media (min-width: 1024px) {
+    #places-grid {
+        grid-template-columns: repeat(4, 1fr);
+        display: grid;
+    }
+}

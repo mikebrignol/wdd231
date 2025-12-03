@@ -7,10 +7,8 @@
     --light-gray: #f2f2f2;
     --card-bg: #f9f9f9;
     --card-border: #dcdcdc;
-
     --font-main: "Poppins", sans-serif;
 }
-
 
 * {
     margin: 0;
@@ -22,6 +20,53 @@ body {
     font-family: var(--font-main);
     background-color: var(--white);
     color: var(--black);
+}
+
+#places-grid {
+    gap: 8px;
+}
+
+.place-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.place-card figure {
+    margin: 0;
+}
+
+.place-card img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+@media (min-width: 641px) {
+    .place-card img:hover {
+        transform: scale(1.05);
+        transition: 0.3s ease;
+        filter: brightness(1.1);
+    }
+}
+
+.learn-btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #0057e7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.learn-btn:hover {
+    background: #003fa3;
 }
 
 header {
