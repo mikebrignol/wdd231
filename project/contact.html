@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <meta name="description" content="Mike's Movies, website created as the final project for WDD231">
+  <meta name="author" content="Mike Brignol">
+  <meta property="og:title" content="Mike's Movies website Contact Page">
+  <meta property="og:description" content="Discover movies, series, and tv shows with the latest movies available on Netflix, Prime Video, Hulu and much more. Connect, and explore what our community has to offer.">
+  <meta property="og:url" content="https://mikebrignol.github.io/wdd231/project/index.html">
+  <meta property="og:image" content="https://mikebrignol.github.io/wdd231/project/images/og.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <link rel="icon" href="images/favicon.ico">
+  <script type="module" src="scripts/backtotop.mjs"></script>
+</head>
+<body>
+  <header>
+    <h1>Mike's Movies</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you! Fill out the form below and we’ll get back to you soon.</p>
+
+      <form id="contactForm" onsubmit="return validateContactForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><span id="currentYear">Mike Brignol</span></p>
+    <p><span id="lastModified"></span></p>
+    <a href="https://youtu.be/epuzPUacKPY">Video Link</a>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/footer.js" defer></script>
+</body>
+</html>

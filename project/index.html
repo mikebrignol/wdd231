@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike's Movies</title>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description" content="Mike's Movies, website created as the final project for WDD231">
+    <meta name="author" content="Mike Brignol">
+    <meta property="og:title" content="Mike's Movies website Home Page">
+    <meta property="og:description" content="Discover movies, series, and tv shows with the latest movies available on Netflix, Prime Video, Hulu and much more. Connect, and explore what our community has to offer.">
+    <meta property="og:url" content="https://mikebrignol.github.io/wdd231/project/index.html">
+    <meta property="og:image" content="https://mikebrignol.github.io/wdd231/project/images/og.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <script type="module" src="scripts/backtotop.mjs"></script>
+    <script type="module" src="scripts/moviegrid.mjs"></script>
+</head>
+<body>
+  <header>
+    <h1>Mike's Movies</h1>
+    <span id="hamburger">&#9776;</span>
+    <nav>
+      <a href="/wdd231/project/index.html">Home</a>
+      <a href="/wdd231/project/about.html">About</a>
+      <a href="/wdd231/project/contact.html">Contact</a>
+    </nav>
+  </header>
+
+
+  <main>
+    <label class="theme-switch">
+      <input type="checkbox" id="themeToggle">
+      Dark mode
+    </label>
+
+    <h2>Discover</h2>
+
+    <div class="movies" id="movieGrid"></div>
+
+    <div id="movieModal" class="modal">
+        <div class="modal-box">
+            <button id="modalClose">X</button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+  </main>
+
+ 
+  <footer>
+    <p><span id="currentYear">Mike Brignol</span></p>
+    <p><span id="lastModified"></span></p>
+    <a href="https://youtu.be/epuzPUacKPY">Video Link</a>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/nav.js" defer></script>
+  <script src="scripts/footer.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+@media (max-width: 720px) {
+    .movies {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        gap: 200px;
+    }
+
+    header nav {
+        display: none;
+        flex-direction: column;
+        background: var(--mid-blue);
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 200px;
+        padding: 1.5rem;
+        border-left: 3px solid var(--accent-gold);
+        border-bottom: 3px solid var(--accent-gold);
+    }
+
+    header nav.show {
+        display: flex;
+        background-color: black;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    #hamburger {
+        display: inline-block;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    .modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.8);
+    justify-content: center;
+    align-items: center;
+    }
+
+    .modal-box {
+    background: #fff;
+    color: #000;
+    padding: 2rem;
+    max-width: 400px;
+    border-radius: 10px;
+    position: relative;
+    }
+
+    .modal-box img {
+    height: 200px;
+    width: auto;
+    }
+
+    #modalClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    }
+
+    body[data-theme="dark"] {
+    background: #111;
+    color: #fff;
+    }
+
+}
